@@ -1,3 +1,5 @@
+
+=nse_check_cash.checked + "," +nse_check_fo.checked +"," +bse_check_cash.checked +"," +bse_check_fo.checked +"," +bse_check_currency.checked +","+mcx_check_commodity.checked;
 document.getElementById("clientid").addEventListener("keyup", function(event) {
   event.preventDefault();
   if(event.keyCode === 13) {
